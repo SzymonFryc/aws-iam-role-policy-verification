@@ -6,7 +6,7 @@ describe('Unit tests for the checkData function', function() {
         const jsonData = {
             "PolicyName": "root",
             "PolicyDocument": {
-                "Version": "2012-10-17",
+                "Version": "2024-04-09",
                 "Statement": [
                     {
                         "Sid": "IamListAccess",
@@ -28,7 +28,7 @@ describe('Unit tests for the checkData function', function() {
         const jsonData = {
             "PolicyName": "root",
             "PolicyDocument": {
-                "Version": "2012-10-17",
+                "Version": "2024-04-09",
                 "Statement": [
                     {
                         "Sid": "IamListAccess",
@@ -50,7 +50,7 @@ describe('Unit tests for the checkData function', function() {
         const jsonData = {
             "PolicyName": "root",
             "PolicyDocument": {
-                "Version": "2012-10-17",
+                "Version": "2024-04-09",
                 "Statement": [
                     {
                         "Sid": "IamListAccess",

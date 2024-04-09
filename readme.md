@@ -11,7 +11,7 @@ This is a simple tool written in JavaScript for verifying input data in JSON for
 
 npm install
 
-5. Copy your JSON data to the clipboard and paste it into the main.js file, assigning it to the jsonData variable.
+5. Copy your JSON data to the clipboard and paste it into the `input.json` file.
 6. Run the verification process by executing the command:
 
 node main.js

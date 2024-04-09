@@ -1,3 +1,16 @@
+const fs = require('fs');
+
+// Method to read JSON data from a file
+function readJsonFromFile(filePath) {
+    try {
+        const jsonData = fs.readFileSync(filePath, 'utf8');
+        return JSON.parse(jsonData);
+    } catch (error) {
+        console.error("Error reading JSON data from file:", error);
+        return null;
+    }
+}
+
 // Method to verify input data in JSON format
 function checkData(jsonData) {
     try {
@@ -14,5 +27,6 @@ function checkData(jsonData) {
 }
 
 module.exports = {
-    checkData: checkData
+    checkData: checkData,
+    readJsonFromFile: readJsonFromFile
 };
