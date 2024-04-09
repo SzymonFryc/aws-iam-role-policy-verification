@@ -1,0 +1,11 @@
+{
+  "name": "aws-iam-role-policy-verification",
+  "version": "1.0.0",
+  "description": "This is a simple tool written in JavaScript for verifying input data in JSON format according to the AWS IAM Role Policy. The tool checks whether the \"Resource\" field in the first statement of the policy contains a single asterisk (*) and returns a boolean value true or false based on the verification result.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
